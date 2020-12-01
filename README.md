@@ -1,5 +1,4 @@
-# Webpack5
+# ajs-11.3
 
-[Информация о релизе Webpack 5](https://webpack.js.org/blog/2020-10-10-webpack-5-release/)
+[![Build status](https://ci.appveyor.com/api/projects/status/2hiillwbg7xxsgyk?svg=true)](https://ci.appveyor.com/project/i-hit/ajs-11-3)
 
-[Migration Guide](https://webpack.js.org/migrate/5/)

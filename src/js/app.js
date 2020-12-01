@@ -1,6 +1,5 @@
-// for demonstration purpose only
-export default function demo(value) {
-  return value;
-}
+const worked = 'it works!';
 
-console.log('app.js included');
+export default worked;
+
+console.log(worked);

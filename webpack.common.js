@@ -8,6 +8,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'source-map',
+
+  devServer: {
+    stats: 'errors-only',
+    open: true,
+  },
   module: {
     rules: [
       {
@@ -17,7 +22,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               esModule: false,
-              name: '[name].[contenthash].[ext]',
+              name: '[name].[ext]',
             },
           },
         ],
@@ -47,7 +52,7 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      favicon: './src//img/favicon.ico',
+      favicon: './src/img/favicon.ico',
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
